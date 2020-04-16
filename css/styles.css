@@ -1,15 +1,25 @@
 /*HTML TAG*/
+body{
+	font-family: 'Montserrat';
+}
+
 h1{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat';
+	font-weight: 900;
 	size: 3rem;
 	line-height: 1.5;
 }
 
+/*CLASS TAG*/
 
+.container-fluid{
+	padding: 5% 15%;
+}
 
 /*ID TAG*/
 
 #title{
 	background-color: #ff4c68;
+	color: #fff;
 }
 
