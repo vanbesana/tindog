@@ -14,13 +14,16 @@ h3{
 	font-family: 'Montserrat';
 	font-weight: 600;
 	font-size: 1.5rem;
-	line-height: 2;
+}
+
+p{
+	color: #8f8f8f;
 }
 
 /*CLASS TAG*/
 
 .container-fluid{
-	padding: 5% 15%;
+	padding: 10% 15%;
 }
 
 /*ID TAG*/
@@ -40,7 +43,7 @@ h3{
 	font-family: "Ubuntu";
 	font-size: 2.5rem;
 	font-weight: bold;
-	padding-bottom:50px;
+	/*padding-bottom:50px;*/
 }
 
 .nav-item{
@@ -65,3 +68,24 @@ h3{
 	transform: rotate(25deg);
 }
 
+/*Features Section*/
+
+#features{
+	padding: 7% 15%;
+}
+
+.feature-box{
+	text-align: center;
+	padding: 4.5%;
+}
+
+/*FONT AWESOME*/
+
+.fontawesome{
+	color: #ef8172;
+	margin-bottom: 1.5rem;
+}
+
+.fontawesome:hover{
+	color: #ff4c68;
+}
